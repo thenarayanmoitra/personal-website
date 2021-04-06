@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #dbf6e9;
+}
+
+#home {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    padding-top: 10px;
+}
+
+#about {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #fb3f00;
+    text-decoration: none;
+}
+
+.about_para {
+    padding-top: 30px;
+}
+
+#projects {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.nav-link:hover {
+    color: #fb3f00;
+}
+
+.nav-item {
+    background: #f0e4d7;
+}
+
+#contact_me {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 30%px fit-content;
+    height: 100px fit-content;
+}
