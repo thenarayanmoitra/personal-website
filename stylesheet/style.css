@@ -45,12 +45,29 @@ p {
     padding-bottom: 20%;
 }
 
-.nav-link:hover {
-    color: #fb3f00;
+.nav-link-text {
+    color: #0d6efd !important;
 }
 
-.nav-item {
+.custom-nav-item {
     background: #f0e4d7;
+}
+
+.custom-nav-item:hover .nav-link-text {
+    color: #fb3f00 !important;
+}
+
+.margin-fix {
+    margin-bottom: 4px;
+}
+
+
+/* White background in hamburger menu */
+
+@media screen and (max-width: 991px) {
+    .custom-nav-item {
+        background: #dbf6e9;
+    }
 }
 
 #contact_me {
